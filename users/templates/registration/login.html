@@ -1,5 +1,4 @@
-<form method == 'POST'>
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type=sumbit>Зарегистрироваться</button>
+<form method="post">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="sumbit">Войти</button>
 </form>
